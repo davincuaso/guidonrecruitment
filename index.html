@@ -1,0 +1,2623 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The GUIDON RecWeek 2020</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta charset="utf-8" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="theme-color" content="#212121" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#212121" />
+    <meta name="mobile-web-app-status-bar-style" content="#212121" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon" sizes="192x192" href="" />
+    <!-- <link rel="shortcut icon" href="#" type="image/x-icon"> -->
+    <link rel="icon" href="img/logo-90thGUIDON-blue.png" type="image/x-icon" />
+    <meta property="og:title" content="The GUIDON RecWeek 2020" />
+    <meta property="og:site_name" content="The GUIDON RecWeek 2020" />
+    <meta
+      property="og:description"
+      content="Journalism demands persistence. In a time when journalism is stripped of its value and journalists are discouraged to go against the tide, we need writers, designers, photographers, videographers, researchers, and managers who will reaffirm journalism's commitment to public service. In its 90th year, The GUIDON invites you to demand the truth."
+    />
+    <meta property="og:image" content="header.jpg" />
+    <!-- <script src="http://assets.theguidon.com/js/jquery/3.2.1.js?v=5752851538525"></script>
+    <script src="http://assets.theguidon.com/js/fastclick.js?v=5752851538525"></script>
+    <script src="http://assets.theguidon.com/js/ga.js?v=5752851538525"></script> -->
+    <script src="js/jquery/3.2.1.js?v=5752851538525"></script>
+    <script src="js/fastclick.js?v=5752851538525"></script>
+    <script src="js/ga.js?v=5752851538525"></script>
+    <script src="js/main.js?v=5752851538525"></script>
+    <link
+      href="css/main.css?v=5752851538525"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style>
+      @font-face {
+        font-family: "Atlas Grotesk Bold";
+        src: url("fonts/atlas-grotesk-bold/AtlasGrotesk-Bold.ttf");
+      }
+      @font-face {
+        font-family: "Atlas Grotesk";
+        src: url("fonts/atlas-grotesk-regular/AtlasGrotesk-Regular.ttf");
+      }
+      @font-face {
+        font-family: "Atlas Grotesk Medium";
+        src: url("fonts/atlas-grotesk-medium/AtlasGrotesk-Medium.ttf");
+      }
+      @font-face {
+        font-family: "Freight Text";
+        src: url("fonts/freight-text/FreightTextBlack.otf");
+  }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="modal-coa">
+      <div class="modal-content">
+        <img src="img/coa-logo.png">
+        <div class="modal-body">
+        <h1>Sign up in COA-M's website</h1>
+        <p>To complete your application to The GUIDON, kindly sign up for the forms on both this site and the COA RecWeek
+          website. Applicants who fail to sign up on both sites shall not be considered as official applicants to the
+          publication.</p>
+        <div class="buttons">
+        <a href="https://www.coarecweek.com/theguidon" target="_blank" class="coa-button">Go to COA-M Website</a>
+        <button class="close">Not now</button>
+        </div>
+        <span class="modal-close">&times;</span>
+      </div>
+      </div>
+    </div> -->
+    <!-- slideshow RC -->
+    <div id="header-wrapper">
+      <div id="image-wrapper">
+        <div
+          class="header-switch slide show"
+          style="background-image: url('img/update-photos/Cover/BL.jpg'); background-position: 50% 35%"
+        ></div>
+        <div
+          class="header-switch slide"
+          style="background-image: url('img/header.jpg'); background-position: 50% 35%"
+        ></div>
+        <div
+          class="header-switch slide"
+          style="background-image: url('img/update-photos/Cover/YEC-Tan.jpg');"
+        ></div>
+        <div
+          class="header-switch slide"
+          style="background-image: url('img/update-photos/Cover/120317-UAAP M Basketball vs DLSU-Ignacio-13.jpg'); background-position: 50% 23%;"
+        ></div>
+        <div
+          class="header-switch slide"
+          style="background-image: url('img/update-photos/Cover/012819-2.5 Rally-Tan-1.jpg'); background-position: 50% 20%;"
+        ></div>
+        <div
+          class="header-switch slide"
+          style="background-image: url('img/header2.jpg');"
+        ></div>
+        <div
+          class="header-switch slide"
+          style="background-image: url('img/update-photos/Cover/Old1.JPG');"
+        ></div>
+        <div
+          class="header-switch slide"
+          style="background-image: url('img/update-photos/Cover/Old2.jpg');"
+        ></div>
+        <div
+          class="header-switch slide"
+          style="background-image: url('img/update-photos/Cover/Old3.jpg');"
+        ></div>
+
+        <div class="color-cover" id="image-cover"></div>
+        <div class="color-cover hidden" id="color-cover"></div>
+      </div>
+      <div id="header-center">
+        <div class="hidden" id="logo"></div>
+        <div class="hidden" id="title">Deeper into the Truth.</div>
+        <div class="hidden" id="sub-title">
+          <div class="text bold">COA RECWEEK</div>
+          <div class="text">September 14-26, 2020</div>
+          <!-- <div class="text">Red Brick Road</div> -->
+        </div>
+      </div>
+    </div>
+    <div id="body-wrapper">
+      <div class="hidden" id="navigation-wrapper">
+        <div id="navigation-center">
+          <a class="item" href="#" id="btn-back">Return to Overview</a>
+        </div>
+      </div>
+      <div class="hidden" id="clusters-wrapper">
+        <!-- WRITING CLUSTER -->
+        <div class="cluster-wrapper cluster-writing">
+          <div class="cluster-header">
+            <div class="text" id="centered">Writing Cluster</div>
+          </div>
+          <div class="staffs-wrapper">
+            <div class="staff hidden">
+              <div class="name" style="color: #1C4480;">News</div>
+              <div class="line" style="background-color: #1C4480" ;></div>
+              <div class="description">
+                At the forefront of The GUIDON, News is committed to report stories that are transparent, thorough, and relevant to every Atenean...
+              </div>
+              <a
+                class="btn btn-more"
+                onclick="setStaffHeader ('img/update-photos/W7/News.jpg', '50% 40%')"
+                data-staff-id="news"
+                style="color: #1C4480; background-size:50% 50%;"
+                href="#news"
+                >Read More</a
+              >
+            </div>
+            <div class="staff hidden">
+              <div class="name" style="color: #1C4481;">Sports</div>
+              <div class="line" style="background-color: #1C4481;"></div>
+              <div class="description">
+                Sports has the unique ability to captivate the imagination and inspire the best of the human spirit. Similarly, The GUIDON Sports...
+              </div>
+              <a
+                class="btn btn-more"
+                onclick="setStaffHeader('img/update-photos/W7/Sports.jpg')"
+                data-staff-id="sports"
+                style="color: #1C4481;"
+                href="#sports"
+                >Read More</a
+              >
+            </div>
+            <div class="staff hidden">
+              <div class="name" style="color: #8f181b;">Inquiry</div>
+              <div class="line" style="background-color: #8f181b;"></div>
+              <div class="description">
+                Inquiry is the analytical and investigative arm of The GUIDON, tasked with looking into the heart of current events and unearthing Ateneo’s hidden truths...
+              </div>
+              <a
+                class="btn btn-more"
+                onclick="setStaffHeader('img/update-photos/W7/Inquiry.jpeg')"
+                data-staff-id="inquiry"
+                style="color: #8f181b;"
+                href="#inquiry"
+                >Read More</a
+              >
+            </div>
+            <div class="staff hidden">
+              <div class="name" style="color: #d4b835;">Beyond Loyola</div>
+              <div class="line" style="background-color: #d4b835;"></div>
+              <div class="description">
+                Through its reportage of the various realities outside the University, Beyond Loyola aims to assert its role in nation-building...
+              </div>
+              <a
+                class="btn btn-more"
+                onclick="setStaffHeader('img/update-photos/W7/BL.jpg')"
+                data-staff-id="beyond-loyola"
+                style="color: #d4b835;"
+                href="#beyond-loyola"
+                >Read More</a
+              >
+            </div>
+            <div class="staff hidden">
+              <div class="name" style="color: #009c65;">Features</div>
+              <div class="line" style="background-color: #009c65;"></div>
+              <div class="description">
+                Dedicated to telling stories of the human, Features delves into topics surrounding phenomena that shape the individual and...
+              </div>
+              <a
+                class="btn btn-more"
+                onclick="setStaffHeader('img/update-photos/W7/Feature2.jpeg', '50% 10%')"
+                data-staff-id="features"
+                style="color: #009c65;"
+                href="#features"
+                >Read More</a
+              >
+            </div>
+            <div class="staff hidden">
+              <div class="name" style="color: #5E61BA;">Vantage Magazine</div>
+              <div class="line" style="background-color: #5E61BA;"></div>
+              <div class="description">
+                We are The GUIDON’s online magazine: A publication dedicated to campus culture and the people behind it. Predicated on the endless potential...
+              </div>
+              <a
+                class="btn btn-more"
+                onclick="setStaffHeader('img/update-photos/W7/Vant.jpg')"
+                data-staff-id="vantage"
+                style="color: #5E61BA;"
+                href="#vantage"
+                >Read More</a
+              >
+            </div>
+            <div class="staff hidden">
+              <div class="name" style="color: #f09724;">Broadcast News</div>
+              <div class="line" style="background-color: #f09724;"></div>
+              <div class="description">
+                Broadcast News seeks to amplify unheard voices and capture human-centric stories through the audio-visual medium...
+              </div>
+              <a
+                class="btn btn-more"
+                onclick="setStaffHeader('img/update-photos/W7/BN.png', '50% 15%')"
+                data-staff-id="broadcast-news"
+                style="color: #f09724;"
+                href="#broadcast-news"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- ORGANIZATIONAL CLUSTER -->
+        <div class="cluster-wrapper cluster-org">
+          <div class="cluster-header">
+            <div class="text" id="centered">Organizational Cluster</div>
+          </div>
+          <div class="staffs-wrapper">
+            <div class="staff hidden">
+              <div class="name" style="color: #11294d;">Social Media</div>
+              <div class="line" style="background-color: #11294d;"></div>
+              <div class="description">
+                Social Media is the online strategic arm of The GUIDON. It is responsible for helping the publication adapt to the trends of the online sphere through...
+              </div>
+              <a
+                class="btn btn-more"
+                onclick="setStaffHeader('img/update-photos/O4/SocialMedia.jpg', '50% 40%')"
+                data-staff-id="social-media"
+                style="color: #11294d;"
+                href="#social-media"
+                >Read More</a
+              >
+            </div>
+            <div class="staff hidden">
+              <div class="name" style="color: #006944;">Human Resources</div>
+              <div class="line" style="background-color: #006944;"></div>
+              <div class="description">
+                Centered on member development and welfare, the Human Resources Staff serves as the internal affairs arm of The GUIDON...
+              </div>
+              <a
+                class="btn btn-more"
+                onclick="setStaffHeader('img/update-photos/O4/HumanResources.jpg', '50% 10%')"
+                data-staff-id="human-resources"
+                style="color: #006944;"
+                href="#human-resources"
+                >Read More</a
+              >
+            </div>
+            <div class="staff hidden">
+              <div class="name" style="color: #a18c28;">Externals</div>
+              <div class="line" style="background-color: #a18c28;"></div>
+              <div class="description">
+                As the face of The GUIDON, Externals takes its advocacy of nation-building beyond the publication. At the helm of managing and...
+              </div>
+              <a
+                class="btn btn-more"
+                onclick="setStaffHeader('img/update-photos/O4/Externals.jpg')"
+                data-staff-id="externals"
+                style="color: #a18c28;"
+                href="#externals"
+                >Read More</a
+              >
+            </div>
+            <div class="staff hidden">
+              <div class="name" style="color: #5c0f11;">Research</div>
+              <div class="line" style="background-color: #5c0f11;"></div>
+              <div class="description">
+                As the analytical arm of The GUIDON, Research staffers conduct data-driven studies to craft strategies that address the...
+              </div>
+              <a
+                class="btn btn-more"
+                onclick="setStaffHeader('img/update-photos/O4/Research.jpeg', '50% 10%')"
+                data-staff-id="research"
+                style="color: #5c0f11;"
+                href="#research"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- DESIGN CLUSTER -->
+        <div class="cluster-wrapper cluster-design">
+          <div class="cluster-header">
+            <div class="text" id="centered">Design Cluster</div>
+          </div>
+          <div class="staffs-wrapper">
+            <div class="staff hidden">
+              <div class="name" style="color: #6a91cd;">Graphic Design</div>
+              <div class="line" style="background-color: #6a91cd;"></div>
+              <div class="description">
+                Graphic Design maintains, improves, and innovates The GUIDON’s visual design and creative direction. Constantly collaborating with...
+              </div>
+              <a
+                class="btn btn-more"
+                onclick="setStaffHeader('img/update-photos/D4/GD.png')"
+                data-staff-id="graphic-design"
+                style="color: #6a91cd;"
+                href="#graphic-design"
+                >Read More</a
+              >
+            </div>
+            <div class="staff hidden">
+              <div class="name" style="color: #e4bb4e;">Photos</div>
+              <div class="line" style="background-color: #e4bb4e;"></div>
+              <div class="description">
+                Through capturing history and creating visual content for The GUIDON, the Photos staff is a group of visual storytellers who unveil realities...
+              </div>
+              <a
+                class="btn btn-more"
+                onclick="setStaffHeader('img/update-photos/PhotosStaff/photos1.jpeg', '50% 20%', true)"
+                data-staff-id="photos"
+                style="color: #e4bb4e;"
+                href="#photos"
+                >Read More</a
+              >
+            </div>
+            <div class="staff hidden">
+              <div class="name" style="color: #dc676a;">Video Production</div>
+              <div class="line" style="background-color: #dc676a;"></div>
+              <div class="description">
+                The GUIDON’s Video Production staff spearheads the publication’s shift to multimedia journalism. Through dynamic visual storytelling...
+              </div>
+              <a
+                class="btn btn-more"
+                onclick="setStaffHeader('img/update-photos/D4/VP.png')"
+                data-staff-id="video-production"
+                style="color: #dc676a;"
+                href="#video-production"
+                >Read More</a
+              >
+            </div>
+            <div class="staff hidden">
+              <div class="name" style="color: #5ebc91;">
+                Digital Development
+              </div>
+              <div class="line" style="background-color: #5ebc91;"></div>
+              <div class="description">
+                The Digital Development staff innovates Philippine campus journalism to produce engaging interactive articles that are unique to The GUIDON...
+              </div>
+              <a
+                class="btn btn-more"
+                onclick="setStaffHeader('img/update-photos/D4/DD.png', '50% 99%')"
+                data-staff-id="digital-development"
+                style="color: #5ebc91;"
+                href="#digital-development"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="staff-wrapper">
+        <div
+          class="staff-wrapper staff-news hidden"
+          data-staff-id="news"
+          data-staff-color="#1C4480"
+        >
+          <div class="staff-center">
+            <div class="staff-name" style="color: #1C4480;">News</div>
+            <div class="staff-cluster" style="color: #1C4480;">
+              Writing Cluster
+            </div>
+            <div class="label">About the staff</div>
+            <div class="text">
+              At the forefront of The GUIDON, News is committed to report stories that are transparent, thorough, and relevant to every Atenean. Writing for News entails documenting the Ateneo’s most pressing issues on paper and online to consistently keep the community up to date.
+              <br><br />
+              Tasked with unmasking the truth behind campus events, News staffers are expected to think critically and creatively to produce significant and accurate stories.
+              
+              <br />
+            </div>
+            <div class="label">Application</div>
+
+            <div class="btn-group">
+                <a class="btn btn-outline disable" href="https://docs.google.com/forms/d/e/1FAIpQLScC87JqqhPFBlAv9B94nP12X1qCEoTACTnwVI2G2LzlizLjVA/viewform?fbclid=IwAR2Tjul1sVRks_pjJgzqCVURr1rk5P98xtFIJ_r6ZqGrQUwdRFQYoEGEJTU"
+                >1. View Pubroom Sessions</a
+              >
+              <a
+                class="btn btn-outline"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSewkOT_M6QkDxN1Zl_kwNnnnydRNl2nKvAGM5Ebq3pkTqO44A/closedform"
+                >2. Apply Now</a
+              ><a
+                class="btn btn-outline"
+                onclick=""
+                href="https://drive.google.com/file/d/18cDHuRcItwfXdLxBAJ_JPw_1cZE78NR6/view"
+                >3. Application Requirements</a
+              >
+            </div>
+            <div class="label">Other Writing cluster staffs</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Sports.jpg')"
+                data-staff-id="sports"
+                style="color: #1C4481;"
+                href="#sports"
+                >Sports</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Inquiry.jpeg')"
+                data-staff-id="inquiry"
+                style="color: #8f181b;"
+                href="#inquiry"
+                >Inquiry</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BL.jpg')"
+                data-staff-id="beyond-loyola"
+                style="color: #d4b835;"
+                href="#beyond-loyola"
+                >Beyond Loyola</a
+              >
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Feature2.jpeg', '50% 10%')"
+                data-staff-id="features"
+                style="color: #009c65;"
+                href="#features"
+                >Features</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Vant.jpg')"
+                data-staff-id="vantage"
+                style="color: #5E61BA;"
+                href="#vantage"
+                >Vantage Magazine</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BN.png', '50% 15%')"
+                data-staff-id="broadcast-news"
+                style="color: #f09724;"
+                href="#broadcast-news"
+                >Broadcast News</a
+              >
+            </div>
+            <div class="label">Organizational Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/SocialMedia.jpg', '50% 40%')"
+                data-staff-id="social-media"
+                style="color: #11294d;"
+                href="#social-media"
+                >Social Media</a
+              >
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/HumanResources.jpg', '50% 10%')"
+                data-staff-id="human-resources"
+                style="color: #006944;"
+                href="#human-resources"
+                >Human Resources</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Externals.jpg')"
+                data-staff-id="externals"
+                style="color: #a18c28;"
+                href="#externals"
+                >Externals</a
+              >
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Research.jpeg', '50% 10%')"
+                data-staff-id="research"
+                style="color: #5c0f11;"
+                href="#research"
+                >Research</a
+              >
+            </div>
+            <div class="label">Design Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/GD.png')"
+                data-staff-id="graphic-design"
+                style="color: #6a91cd;"
+                href="#graphic-design"
+                >Graphic Design</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/PhotosStaff/photos1.jpeg', '50% 20%', true)"
+                data-staff-id="photos"
+                style="color: #e4bb4e;"
+                href="#photos"
+                >Photos</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/VP.png')"
+                data-staff-id="video-production"
+                style="color: #dc676a;"
+                href="#video-production"
+                >Video Production</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/DD.png', '50% 99%')"
+                data-staff-id="digital-development"
+                style="color: #5ebc91;"
+                href="#digital-development"
+                >Digital Development
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="staff-wrapper staff-sports hidden"
+          data-staff-id="sports"
+          data-staff-color="#1C4481"
+        >
+          <div class="staff-center">
+            <div class="staff-name" style="color: #1C4481;">Sports</div>
+            <div class="staff-cluster" style="color: #1C4481;">
+              Writing Cluster
+            </div>
+            <div class="label">About the staff</div>
+            <div class="text">
+              Sports has the unique ability to captivate the imagination and inspire the best of the human spirit. Similarly, The GUIDON Sports is dedicated to sharing the stories of Ateneans pursuing excellence and breaking boundaries in the sporting world.
+              <br> </br>
+              The Sports Staff is committed to using a creative and critical voice in showcasing the journeys, moments, and milestones that shape Ateneo sports.
+              
+              <br />
+            </div>
+            <div class="label">Application</div>
+
+            <div class="btn-group">
+                <a class="btn btn-outline" href="https://docs.google.com/forms/d/e/1FAIpQLScC87JqqhPFBlAv9B94nP12X1qCEoTACTnwVI2G2LzlizLjVA/viewform?fbclid=IwAR2Tjul1sVRks_pjJgzqCVURr1rk5P98xtFIJ_r6ZqGrQUwdRFQYoEGEJTU"
+                >1. View Pubroom Sessions</a
+              >
+              <a
+                class="btn btn-outline"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSewkOT_M6QkDxN1Zl_kwNnnnydRNl2nKvAGM5Ebq3pkTqO44A/closedform"
+                
+                >2. Apply Now
+                <!-- onclick="waitTilRecweek()" Davin took this out-->
+              </a>
+              <a
+                class="btn btn-outline"
+                onclick= ""
+                href="https://drive.google.com/file/d/15RCId95FSfPAM1EepyiSYFVUOPe1KzHN/view"
+                >3. Application Requirements</a
+              >
+            </div>
+            <div class="label">Other Writing Cluster staffs</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader ('img/update-photos/W7/News.jpg', '50% 40%')"
+                data-staff-id="news"
+                style="color: #1C4480;"
+                href="#news"
+                >News</a
+              >
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Inquiry.jpeg')"
+                data-staff-id="inquiry"
+                style="color: #8f181b;"
+                href="#inquiry"
+                >Inquiry</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BL.jpg')"
+                data-staff-id="beyond-loyola"
+                style="color: #d4b835;"
+                href="#beyond-loyola"
+                >Beyond Loyola</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Feature2.jpeg', '50% 10%')"
+                data-staff-id="features"
+                style="color: #009c65;"
+                href="#features"
+                >Features</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Vant.jpg')"
+                data-staff-id="vantage"
+                style="color: #5E61BA;"
+                href="#vantage"
+                >Vantage Magazine</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BN.png', '50% 15%')"
+                data-staff-id="broadcast-news"
+                style="color: #f09724;"
+                href="#broadcast-news"
+                >Broadcast News</a
+              >
+            </div>
+            <div class="label">Organizational Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/SocialMedia.jpg', '50% 40%')"
+                data-staff-id="social-media"
+                style="color: #11294d;"
+                href="#social-media"
+                >Social Media</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/HumanResources.jpg', '50% 10%')"
+                data-staff-id="human-resources"
+                style="color: #006944;"
+                href="#human-resources"
+                >Human Resources</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Externals.jpg')"
+                data-staff-id="externals"
+                style="color: #a18c28;"
+                href="#externals"
+                >Externals</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Research.jpeg', '50% 10%')"
+                data-staff-id="research"
+                style="color: #5c0f11;"
+                href="#research"
+                >Research</a
+              >
+            </div>
+            <div class="label">Design Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/GD.png')"
+                data-staff-id="graphic-design"
+                style="color: #6a91cd;"
+                href="#graphic-design"
+                >Graphic Design</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/PhotosStaff/photos1.jpeg', '50% 20%', true)"
+                data-staff-id="photos"
+                style="color: #e4bb4e;"
+                href="#photos"
+                >Photos</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/VP.png')"
+                data-staff-id="video-production"
+                style="color: #dc676a;"
+                href="#video-production"
+                >Video Production</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/DD.png', '50% 99%')"
+                data-staff-id="digital-development"
+                style="color: #5ebc91;"
+                href="#digital-development"
+                >Digital Development
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="staff-wrapper staff-inquiry hidden"
+          data-staff-id="inquiry"
+          data-staff-color="#8f181b"
+        >
+          <div class="staff-center">
+            <div class="staff-name" style="color: #8f181b;">Inquiry</div>
+            <div class="staff-cluster" style="color: #8f181b;">
+              Writing Cluster
+            </div>
+            <div class="label">About the staff</div>
+            <div class="text">
+              Inquiry is the analytical and investigative arm of The GUIDON, tasked with looking into the heart of current events and unearthing Ateneo’s hidden truths. Our staff tackles the more controversial issues that afflict the Atenean community while deepening campus discourse through investigative, data-driven journalism. 
+              <br> <br />
+              Through staffers’ critical reportage, Inquiry provides a platform for Ateneo’s unheard voices. As the staff produces various analyses on campus issues, Inquiry staffers must be analytical, innovative, and most importantly, insightful.
+              
+              <br />
+            </div>
+            <div class="label">Application</div>
+
+            <div class="btn-group">
+                <a class="btn btn-outline" href="https://docs.google.com/forms/d/e/1FAIpQLScC87JqqhPFBlAv9B94nP12X1qCEoTACTnwVI2G2LzlizLjVA/viewform?fbclid=IwAR2Tjul1sVRks_pjJgzqCVURr1rk5P98xtFIJ_r6ZqGrQUwdRFQYoEGEJTU"
+                >1. View Pubroom Sessions</a
+              >
+              <a
+                class="btn btn-outline"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSewkOT_M6QkDxN1Zl_kwNnnnydRNl2nKvAGM5Ebq3pkTqO44A/closedform"
+                >2. Apply Now</a
+              ><a
+                class="btn btn-outline"
+                onclick=""
+                href="https://drive.google.com/file/d/1IjbtKzOKNFIIBYdXes2iQa0SV0h8UNFG/view"
+                >3. Application Requirements</a
+              >
+            </div>
+            <div class="label">Other Writing cluster staffs</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader ('img/update-photos/W7/News.jpg', '50% 40%')"
+                data-staff-id="news"
+                style="color: #1C4480;"
+                href="#news"
+                >News</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Sports.jpg')"
+                data-staff-id="sports"
+                style="color: #1C4481;"
+                href="#sports"
+                >Sports</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BL.jpg')"
+                data-staff-id="beyond-loyola"
+                style="color: #d4b835;"
+                href="#beyond-loyola"
+                >Beyond Loyola</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Feature2.jpeg', '50% 10%')"
+                data-staff-id="features"
+                style="color: #009c65;"
+                href="#features"
+                >Features</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Vant.jpg')"
+                data-staff-id="vantage"
+                style="color: #5E61BA;"
+                href="#vantage"
+                >Vantage Magazine</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BN.png', '50% 15%')"
+                data-staff-id="broadcast-news"
+                style="color: #f09724;"
+                href="#broadcast-news"
+                >Broadcast News</a
+              >
+            </div>
+            <div class="label">Organizational Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/SocialMedia.jpg', '50% 40%')"
+                data-staff-id="social-media"
+                style="color: #11294d;"
+                href="#social-media"
+                >Social Media</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/HumanResources.jpg', '50% 10%')"
+                data-staff-id="human-resources"
+                style="color: #006944;"
+                href="#human-resources"
+                >Human Resources</a
+              >
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Externals.jpg')"
+                data-staff-id="externals"
+                style="color: #a18c28;"
+                href="#externals"
+                >Externals</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Research.jpeg', '50% 10%')"
+                data-staff-id="research"
+                style="color: #5c0f11;"
+                href="#research"
+                >Research</a
+              >
+            </div>
+            <div class="label">Design Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/GD.png')"
+                data-staff-id="graphic-design"
+                style="color: #6a91cd;"
+                href="#graphic-design"
+                >Graphic Design</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/PhotosStaff/photos1.jpeg', '50% 20%', true)"
+                data-staff-id="photos"
+                style="color: #e4bb4e;"
+                href="#photos"
+                >Photos</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/VP.png')"
+                data-staff-id="video-production"
+                style="color: #dc676a;"
+                href="#video-production"
+                >Video Production</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/DD.png', '50% 99%')"
+                data-staff-id="digital-development"
+                style="color: #5ebc91;"
+                href="#digital-development"
+                >Digital Development
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="staff-wrapper staff-beyond-loyola hidden"
+          data-staff-id="beyond-loyola"
+          data-staff-color="#d4b835"
+        >
+          <div class="staff-center">
+            <div class="staff-name" style="color: #d4b835;">Beyond Loyola</div>
+            <div class="staff-cluster" style="color: #d4b835;">
+              Writing Cluster
+            </div>
+            <div class="label">About the staff</div>
+            <div class="text">
+              Through its reportage of the various realities outside the University, Beyond Loyola aims to assert its role in nation-building and further situate the country in the international landscape. <br> <br />
+              Beyond Loyola staffers spark discourse within the Ateneo community, initiating long-form discussions on pertinent national and international issues in its pursuit to guide the Atenean in their descent from the proverbial hill.
+              
+              <br />
+            </div>
+            <div class="label">Application</div>
+
+            <div class="btn-group">
+                <a class="btn btn-outline" href="https://docs.google.com/forms/d/e/1FAIpQLScC87JqqhPFBlAv9B94nP12X1qCEoTACTnwVI2G2LzlizLjVA/viewform?fbclid=IwAR2Tjul1sVRks_pjJgzqCVURr1rk5P98xtFIJ_r6ZqGrQUwdRFQYoEGEJTU"
+                >1. View Pubroom Sessions</a
+              ><a
+                class="btn btn-outline"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSewkOT_M6QkDxN1Zl_kwNnnnydRNl2nKvAGM5Ebq3pkTqO44A/closedform"
+                >2. Apply Now</a
+              >
+              <a
+                class="btn btn-outline"
+                onclick=""
+                href="https://drive.google.com/file/d/1AXwS9c5HILaibLs6WjYZIYodR38qT072/view"
+                >3. Application Requirements</a
+              >
+              
+            </div>
+            <div class="label">Other Writing cluster staffs</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader ('img/update-photos/W7/News.jpg', '50% 40%')"
+                data-staff-id="news"
+                style="color: #1C4480;"
+                href="#news"
+                >News</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Sports.jpg')"
+                data-staff-id="sports"
+                style="color: #1C4481;"
+                href="#sports"
+                >Sports</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Inquiry.jpeg')"
+                data-staff-id="inquiry"
+                style="color: #8f181b;"
+                href="#inquiry"
+                >Inquiry</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Feature2.jpeg', '50% 10%')"
+                data-staff-id="features"
+                style="color: #009c65;"
+                href="#features"
+                >Features</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Vant.jpg')"
+                data-staff-id="vantage"
+                style="color: #5E61BA;"
+                href="#vantage"
+                >Vantage Magazine</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BN.png', '50% 15%')"
+                data-staff-id="broadcast-news"
+                style="color: #f09724;"
+                href="#broadcast-news"
+                >Broadcast News</a
+              >
+            </div>
+            <div class="label">Organizational Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/SocialMedia.jpg', '50% 40%')"
+                data-staff-id="social-media"
+                style="color: #11294d;"
+                href="#social-media"
+                >Social Media</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/HumanResources.jpg', '50% 10%')"
+                data-staff-id="human-resources"
+                style="color: #006944;"
+                href="#human-resources"
+                >Human Resources</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Externals.jpg')"
+                data-staff-id="externals"
+                style="color: #a18c28;"
+                href="#externals"
+                >Externals</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Research.jpeg', '50% 10%')"
+                data-staff-id="research"
+                style="color: #5c0f11;"
+                href="#research"
+                >Research</a
+              >
+            </div>
+            <div class="label">Design Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/GD.png')"
+                data-staff-id="graphic-design"
+                style="color: #6a91cd;"
+                href="#graphic-design"
+                >Graphic Design</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/PhotosStaff/photos1.jpeg', '50% 20%', true)"
+                data-staff-id="photos"
+                style="color: #e4bb4e;"
+                href="#photos"
+                >Photos</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/VP.png')"
+                data-staff-id="video-production"
+                style="color: #dc676a;"
+                href="#video-production"
+                >Video Production</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/DD.png', '50% 99%')"
+                data-staff-id="digital-development"
+                style="color: #5ebc91;"
+                href="#digital-development"
+                >Digital Development
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="staff-wrapper staff-features hidden"
+          data-staff-id="features"
+          data-staff-color="#009c65"
+        >
+          <div class="staff-center">
+            <div class="staff-name" style="color: #009c65;">Features</div>
+            <div class="staff-cluster" style="color: #009c65;">
+              Writing Cluster
+            </div>
+            <div class="label">About the staff</div>
+            <div class="text">
+              Dedicated to telling stories of the human, Features delves into topics surrounding phenomena that shape the individual and society as a whole. The staff documents cultural history in a manner that is relevant in both concept and effect. 
+              <br> </br> 
+              As the staff aims to humanize society’s cultural trends, Features staffers endeavor to creatively present facts through impactful stories.
+              
+            </div>
+            <div class="label">Application</div>
+
+            <div class="btn-group">
+                <a class="btn btn-outline" href="https://docs.google.com/forms/d/e/1FAIpQLScC87JqqhPFBlAv9B94nP12X1qCEoTACTnwVI2G2LzlizLjVA/viewform?fbclid=IwAR2Tjul1sVRks_pjJgzqCVURr1rk5P98xtFIJ_r6ZqGrQUwdRFQYoEGEJTU"
+                >1. View Pubroom Sessions</a
+              >
+              <a
+                class="btn btn-outline"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSewkOT_M6QkDxN1Zl_kwNnnnydRNl2nKvAGM5Ebq3pkTqO44A/closedform"
+                >2. Apply Now</a
+              >
+              <!-- onclick="waitTilRecweek()" Davin took this out from pubroom sessions-->
+              <a
+                class="btn btn-outline"
+                onclick=""
+                href="https://drive.google.com/file/d/1dxk5IYX30TZndqi8vGa-B27uvv7FxKt5/view"
+                >3. Application Requirements</a
+              >
+            </div>
+            <div class="label">Other Writing cluster staffs</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader ('img/update-photos/W7/News.jpg', '50% 40%')"
+                data-staff-id="news"
+                style="color: #1C4480;"
+                href="#news"
+                >News</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Sports.jpg')"
+                data-staff-id="sports"
+                style="color: #1C4481;"
+                href="#sports"
+                >Sports</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Inquiry.jpeg')"
+                data-staff-id="inquiry"
+                style="color: #8f181b;"
+                href="#inquiry"
+                >Inquiry</a
+              >
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BL.jpg')"
+                data-staff-id="beyond-loyola"
+                style="color: #d4b835;"
+                href="#beyond-loyola"
+                >Beyond Loyola</a
+              >
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Vant.jpg')"
+                data-staff-id="vantage"
+                style="color: #5E61BA;"
+                href="#vantage"
+                >Vantage Magazine</a
+              >
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BN.png', '50% 15%')"
+                data-staff-id="broadcast-news"
+                style="color: #f09724;"
+                href="#broadcast-news"
+                >Broadcast News</a
+              >
+            </div>
+            <div class="label">Organizational Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/SocialMedia.jpg', '50% 40%')"
+                data-staff-id="social-media"
+                style="color: #11294d;"
+                href="#social-media"
+                >Social Media</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/HumanResources.jpg', '50% 10%')"
+                data-staff-id="human-resources"
+                style="color: #006944;"
+                href="#human-resources"
+                >Human Resources</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Externals.jpg')"
+                data-staff-id="externals"
+                style="color: #a18c28;"
+                href="#externals"
+                >Externals</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Research.jpeg', '50% 10%')"
+                data-staff-id="research"
+                style="color: #5c0f11;"
+                href="#research"
+                >Research</a
+              >
+            </div>
+            <div class="label">Design Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/GD.png')"
+                data-staff-id="graphic-design"
+                style="color: #6a91cd;"
+                href="#graphic-design"
+                >Graphic Design</a
+              >
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/PhotosStaff/photos1.jpeg', '50% 20%', true)"
+                data-staff-id="photos"
+                style="color: #e4bb4e;"
+                href="#photos"
+                >Photos</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/VP.png')"
+                data-staff-id="video-production"
+                style="color: #dc676a;"
+                href="#video-production"
+                >Video Production</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/DD.png', '50% 99%')"
+                data-staff-id="digital-development"
+                style="color: #5ebc91;"
+                href="#digital-development"
+                >Digital Development
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="staff-wrapper staff-vantage hidden"
+          data-staff-id="vantage"
+          data-staff-color="#5E61BA"
+        >
+          <div class="staff-center">
+            <div class="staff-name" style="color: #5E61BA;">
+              Vantage Magazine
+            </div>
+            <div class="staff-cluster" style="color: #5E61BA;">
+              Writing Cluster
+            </div>
+            <div class="label">About the staff</div>
+            <div class="text">
+              We are The GUIDON’s online magazine: A publication dedicated to campus culture and the people behind it. Predicated on the endless potential of digital media, we take journalism into the 21st century—away from pretense and towards accessibility. Vantage Magazine highlights the latest trends in food, film, music, and theater and the arts through relevant and engaging content.
+              <br> <br /> 
+              Our staff aims to promote a two-way conversation between the publication and our readers through our stories of campus culture and other student interests. With a firm grasp of multimedia storytelling and all things Ateneo, Vantage Magazine celebrates creative expression and responsible storytelling.
+              
+              <br />
+            </div>
+            <div class="label">Application</div>
+
+            <div class="btn-group">
+                <a class="btn btn-outline" href="https://docs.google.com/forms/d/e/1FAIpQLScC87JqqhPFBlAv9B94nP12X1qCEoTACTnwVI2G2LzlizLjVA/viewform?fbclid=IwAR2Tjul1sVRks_pjJgzqCVURr1rk5P98xtFIJ_r6ZqGrQUwdRFQYoEGEJTU"
+                >1. View Pubroom Sessions</a
+              >
+              <a
+                class="btn btn-outline"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSewkOT_M6QkDxN1Zl_kwNnnnydRNl2nKvAGM5Ebq3pkTqO44A/closedform"
+                >2. Apply Now</a
+              ><a
+                class="btn btn-outline"
+                onclick=""
+                href="https://drive.google.com/file/d/10dNX7SP_58kGK5pSmmtLqUMe3HsEus0G/view"
+                >3. Application Requirements</a
+              >
+            </div>
+            <div class="label">Other Writing cluster staffs</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader ('img/update-photos/W7/News.jpg', '50% 40%')"
+                data-staff-id="news"
+                style="color: #1C4480;"
+                href="#news"
+                >News</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Sports.jpg')"
+                data-staff-id="sports"
+                style="color: #1C4481;"
+                href="#sports"
+                >Sports</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Inquiry.jpeg')"
+                data-staff-id="inquiry"
+                style="color: #8f181b;"
+                href="#inquiry"
+                >Inquiry</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BL.jpg')"
+                data-staff-id="beyond-loyola"
+                style="color: #d4b835;"
+                href="#beyond-loyola"
+                >Beyond Loyola</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Feature2.jpeg', '50% 10%')"
+                data-staff-id="features"
+                style="color: #009c65;"
+                href="#features"
+                >Features</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BN.png', '50% 15%')"
+                data-staff-id="broadcast-news"
+                style="color: #f09724;"
+                href="#broadcast-news"
+                >Broadcast News</a
+              >
+            </div>
+            <div class="label">Organizational Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/SocialMedia.jpg', '50% 40%')"
+                data-staff-id="social-media"
+                style="color: #11294d;"
+                href="#social-media"
+                >Social Media</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/HumanResources.jpg', '50% 10%')"
+                data-staff-id="human-resources"
+                style="color: #006944;"
+                href="#human-resources"
+                >Human Resources</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Externals.jpg')"
+                data-staff-id="externals"
+                style="color: #a18c28;"
+                href="#externals"
+                >Externals</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Research.jpeg', '50% 10%')"
+                data-staff-id="research"
+                style="color: #5c0f11;"
+                href="#research"
+                >Research</a
+              >
+            </div>
+            <div class="label">Design Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/GD.png')"
+                data-staff-id="graphic-design"
+                style="color: #6a91cd;"
+                href="#graphic-design"
+                >Graphic Design</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/PhotosStaff/photos1.jpeg', '50% 20%', true)"
+                data-staff-id="photos"
+                style="color: #e4bb4e;"
+                href="#photos"
+                >Photos</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/VP.png')"
+                data-staff-id="video-production"
+                style="color: #dc676a;"
+                href="#video-production"
+                >Video Production</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/DD.png', '50% 99%')"
+                data-staff-id="digital-development"
+                style="color: #5ebc91;"
+                href="#digital-development"
+                >Digital Development
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="staff-wrapper staff-broadcast-news hidden"
+          data-staff-id="broadcast-news"
+          data-staff-color="#f09724"
+        >
+          <div class="staff-center">
+            <div class="staff-name" style="color: #f09724;">Broadcast News</div>
+            <div class="staff-cluster" style="color: #f09724;">
+              Writing Cluster
+            </div>
+            <div class="label">About the staff</div>
+            <div class="text">
+              Broadcast News seeks to amplify unheard voices and capture human-centric stories through the audio-visual medium. Whether in the form of live interviews, video reports, animated explainers, or podcasts, the staff aims to help cement The GUIDON’s online presence through its wide variety of multimedia productions.
+              <br> <br />
+              Our pool of reporters will be trained to write scripts, edit their own audio-visual output, interview the newsmakers of the times, and most importantly, report the truth as it happens.
+              
+              <br />
+            </div>
+            <div class="label">Application</div>
+
+            <div class="btn-group">
+                <a class="btn btn-outline" href="https://docs.google.com/forms/d/e/1FAIpQLScC87JqqhPFBlAv9B94nP12X1qCEoTACTnwVI2G2LzlizLjVA/viewform?fbclid=IwAR2Tjul1sVRks_pjJgzqCVURr1rk5P98xtFIJ_r6ZqGrQUwdRFQYoEGEJTU"
+                >1. View Pubroom Sessions</a
+                >
+              <a
+                class="btn btn-outline"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSewkOT_M6QkDxN1Zl_kwNnnnydRNl2nKvAGM5Ebq3pkTqO44A/closedform"
+                >2. Apply Now</a
+              ><a
+                class="btn btn-outline"
+                onclick=""
+                href="https://drive.google.com/file/d/1oZgLEdGL2HTwUsw99YMdy4zIjhd45a4N/view"
+                >3. Application Requirements</a
+              >
+            </div>
+            <div class="label">Other Writing cluster staffs</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/News.jpg', '50% 40%')"
+                data-staff-id="news"
+                style="color: #1C4480;"
+                href="#news"
+                >News</a
+              >
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Sports.jpg')"
+                data-staff-id="sports"
+                style="color: #1C4481;"
+                href="#sports"
+                >Sports</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Inquiry.jpeg')"
+                data-staff-id="inquiry"
+                style="color: #8f181b;"
+                href="#inquiry"
+                >Inquiry</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BL.jpg')"
+                data-staff-id="beyond-loyola"
+                style="color: #d4b835;"
+                href="#beyond-loyola"
+                >Beyond Loyola</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Feature2.jpeg', '50% 10%')"
+                data-staff-id="features"
+                style="color: #009c65;"
+                href="#features"
+                >Features</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Vant.jpg')"
+                data-staff-id="vantage"
+                style="color: #5E61BA;"
+                href="#vantage"
+                >Vantage Magazine</a
+              >
+            </div>
+            <div class="label">Organizational Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/SocialMedia.jpg', '50% 40%')"
+                data-staff-id="social-media"
+                style="color: #11294d;"
+                href="#social-media"
+                >Social Media</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/HumanResources.jpg', '50% 10%')"
+                data-staff-id="human-resources"
+                style="color: #006944;"
+                href="#human-resources"
+                >Human Resources</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Externals.jpg')"
+                data-staff-id="externals"
+                style="color: #a18c28;"
+                href="#externals"
+                >Externals</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Research.jpeg', '50% 10%')"
+                data-staff-id="research"
+                style="color: #5c0f11;"
+                href="#research"
+                >Research</a
+              >
+            </div>
+            <div class="label">Design Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/GD.png')"
+                data-staff-id="graphic-design"
+                style="color: #6a91cd;"
+                href="#graphic-design"
+                >Graphic Design</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/PhotosStaff/photos1.jpeg', '50% 20%', true)"
+                data-staff-id="photos"
+                style="color: #e4bb4e;"
+                href="#photos"
+                >Photos</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/VP.png')"
+                data-staff-id="video-production"
+                style="color: #dc676a;"
+                href="#video-production"
+                >Video Production</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/DD.png', '50% 99%')"
+                data-staff-id="digital-development"
+                style="color: #5ebc91;"
+                href="#digital-development"
+                >Digital Development
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="staff-wrapper staff-social-media hidden"
+          data-staff-id="social-media"
+          data-staff-color="#11294d"
+        >
+          <div class="staff-center">
+            <div class="staff-name" style="color: #11294d;">Social Media</div>
+            <div class="staff-cluster" style="color: #11294d;">
+              Organizational Cluster
+            </div>
+            <div class="label">About the staff</div>
+            <div class="text">
+              Social Media is the online strategic arm of The GUIDON. It is responsible for helping the publication adapt to the trends of the online sphere through innovative systems and data analytics. Social Media staffers take charge of monitoring articles and coverages, organizing publication schedules, proposing online releases relevant to the Ateneo community, and creating performance reports for all of The GUIDON’s social media accounts.
+            </div>
+            <div class="label">Application</div>
+
+            <div class="btn-group">
+                <a class="btn btn-outline" href="https://docs.google.com/forms/d/e/1FAIpQLScC87JqqhPFBlAv9B94nP12X1qCEoTACTnwVI2G2LzlizLjVA/viewform?fbclid=IwAR2Tjul1sVRks_pjJgzqCVURr1rk5P98xtFIJ_r6ZqGrQUwdRFQYoEGEJTU"
+                >1. View Pubroom Sessions</a
+              >
+              <a
+                class="btn btn-outline"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSewkOT_M6QkDxN1Zl_kwNnnnydRNl2nKvAGM5Ebq3pkTqO44A/closedform"
+                >2. Apply Now</a
+              ><a
+                class="btn btn-outline"
+                onclick=""
+                href="https://drive.google.com/file/d/1ZNopPhg2gOk-6Uw3TLulWSXXDQ_eYdbj/view"
+                >3. Application Requirements</a
+              >
+            </div>
+            <div class="label">Other Organizational cluster staffs</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/HumanResources.jpg', '50% 10%')"
+                data-staff-id="human-resources"
+                style="color: #006944;"
+                href="#human-resources"
+                >Human Resources</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Externals.jpg')"
+                data-staff-id="externals"
+                style="color: #a18c28;"
+                href="#externals"
+                >Externals</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Research.jpeg', '50% 10%')"
+                data-staff-id="research"
+                style="color: #5c0f11;"
+                href="#research"
+                >Research</a
+              >
+            </div>
+            <div class="label">Writing Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader ('img/update-photos/W7/News.jpg', '50% 40%')"
+                data-staff-id="news"
+                style="color: #1C4480;"
+                href="#news"
+                >News</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Sports.jpg')"
+                data-staff-id="sports"
+                style="color: #1C4481;"
+                href="#sports"
+                >Sports</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Inquiry.jpeg')"
+                data-staff-id="inquiry"
+                style="color: #8f181b;"
+                href="#inquiry"
+                >Inquiry</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BL.jpg')"
+                data-staff-id="beyond-loyola"
+                style="color: #d4b835;"
+                href="#beyond-loyola"
+                >Beyond Loyola</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Feature2.jpeg', '50% 10%')"
+                data-staff-id="features"
+                style="color: #009c65;"
+                href="#features"
+                >Features</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Vant.jpg')"
+                data-staff-id="vantage"
+                style="color: #5E61BA;"
+                href="#vantage"
+                >Vantage Magazine</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BN.png', '50% 15%')"
+                data-staff-id="broadcast-news"
+                style="color: #f09724;"
+                href="#broadcast-news"
+                >Broadcast News</a
+              >
+            </div>
+            <div class="label">Design Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/GD.png')"
+                data-staff-id="graphic-design"
+                style="color: #6a91cd;"
+                href="#graphic-design"
+                >Graphic Design</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/PhotosStaff/photos1.jpeg', '50% 20%', true)"
+                data-staff-id="photos"
+                style="color: #e4bb4e;"
+                href="#photos"
+                >Photos</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/VP.png')"
+                data-staff-id="video-production"
+                style="color: #dc676a;"
+                href="#video-production"
+                >Video Production</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/DD.png', '50% 99%')"
+                data-staff-id="digital-development"
+                style="color: #5ebc91;"
+                href="#digital-development"
+                >Digital Development
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="staff-wrapper staff-human-resources hidden"
+          data-staff-id="human-resources"
+          data-staff-color="#006944"
+        >
+          <div class="staff-center">
+            <div class="staff-name" style="color: #006944;">
+              Human Resources
+            </div>
+            <div class="staff-cluster" style="color: #006944;">
+              Organizational Cluster
+            </div>
+            <div class="label">About the staff</div>
+            <div class="text">
+              Centered on member development and welfare, the Human Resources Staff serves as the internal affairs arm of The GUIDON. Human Resources staffers focus on the internal health of the organization, specifically catering to training, integration, feedback response, and internal events management needs.
+              <br> <br />
+              Human Resources aims to provide avenues for learning to aid the publication’s members in developing their potential to tell compelling and truthful stories. Through their best efforts, the Human Resources staffers cultivate a healthy and comfortable working environment for all members throughout their stay in The GUIDON.
+              
+            </div>
+            <div class="label">Application</div>
+
+            <div class="btn-group">
+                <a class="btn btn-outline" href="https://docs.google.com/forms/d/e/1FAIpQLScC87JqqhPFBlAv9B94nP12X1qCEoTACTnwVI2G2LzlizLjVA/viewform?fbclid=IwAR2Tjul1sVRks_pjJgzqCVURr1rk5P98xtFIJ_r6ZqGrQUwdRFQYoEGEJTU"
+                >1. View Pubroom Sessions</a
+              >
+              <a
+                class="btn btn-outline"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSewkOT_M6QkDxN1Zl_kwNnnnydRNl2nKvAGM5Ebq3pkTqO44A/closedform"
+                >2. Apply Now</a
+              ><a
+                class="btn btn-outline"
+                onclick=""
+                href="https://drive.google.com/file/d/1ZzbVXFIRrPLMFIDpVpaP6CLVlWSc_y5a/view"
+                >3. Application Requirements</a>
+              <!-- onclick="addAlert()" Davin took this out-->
+            </div>
+            <div class="label">Other Organizational cluster staffs</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/SocialMedia.jpg', '50% 40%')"
+                data-staff-id="social-media"
+                style="color: #11294d;"
+                href="#social-media"
+                >Social Media</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Externals.jpg')"
+                data-staff-id="externals"
+                style="color: #a18c28;"
+                href="#externals"
+                >Externals</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Research.jpeg', '50% 10%')"
+                data-staff-id="research"
+                style="color: #5c0f11;"
+                href="#research"
+                >Research</a
+              >
+            </div>
+            <div class="label">Writing Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader ('img/update-photos/W7/News.jpg', '50% 40%')"
+                data-staff-id="news"
+                style="color: #1C4480;"
+                href="#news"
+                >News</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Sports.jpg')"
+                data-staff-id="sports"
+                style="color: #1C4481;"
+                href="#sports"
+                >Sports</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Inquiry.jpeg')"
+                data-staff-id="inquiry"
+                style="color: #8f181b;"
+                href="#inquiry"
+                >Inquiry</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BL.jpg')"
+                data-staff-id="beyond-loyola"
+                style="color: #d4b835;"
+                href="#beyond-loyola"
+                >Beyond Loyola</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Feature2.jpeg', '50% 10%')"
+                data-staff-id="features"
+                style="color: #009c65;"
+                href="#features"
+                >Features</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Vant.jpg')"
+                data-staff-id="vantage"
+                style="color: #5E61BA;"
+                href="#vantage"
+                >Vantage Magazine</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BN.png', '50% 15%')"
+                data-staff-id="broadcast-news"
+                style="color: #f09724;"
+                href="#broadcast-news"
+                >Broadcast News</a
+              >
+            </div>
+            <div class="label">Design Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/GD.png')"
+                data-staff-id="graphic-design"
+                style="color: #6a91cd;"
+                href="#graphic-design"
+                >Graphic Design</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/PhotosStaff/photos1.jpeg', '50% 20%', true)"
+                data-staff-id="photos"
+                style="color: #e4bb4e;"
+                href="#photos"
+                >Photos</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/VP.png')"
+                data-staff-id="video-production"
+                style="color: #dc676a;"
+                href="#video-production"
+                >Video Production</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/DD.png', '50% 99%')"
+                data-staff-id="digital-development"
+                style="color: #5ebc91;"
+                href="#digital-development"
+                >Digital Development
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="staff-wrapper staff-externals hidden"
+          data-staff-id="externals"
+          data-staff-color="#a18c28"
+        >
+          <div class="staff-center">
+            <div class="staff-name" style="color: #a18c28;">Externals</div>
+            <div class="staff-cluster" style="color: #a18c28;">
+              Organizational Cluster
+            </div>
+            <div class="label">About the staff</div>
+            <div class="text">
+              As the face of The GUIDON, Externals takes its advocacy of nation-building beyond the publication. At the helm of managing and organizing projects, external stakeholders, and the circulation of the publication’s print issues, Externals staffers are expected to be quick on their feet while maintaining their composure when engaging with others.
+              <br> <br />
+              Externals spearheads various webinars and roundtable discussions while on-site activities and annual projects such as Point One, Networking Night, and Press Play are suspended.
+              
+            </div>
+            <div class="label">Application</div>
+
+            <div class="btn-group">
+                <a class="btn btn-outline" href="https://docs.google.com/forms/d/e/1FAIpQLScC87JqqhPFBlAv9B94nP12X1qCEoTACTnwVI2G2LzlizLjVA/viewform?fbclid=IwAR2Tjul1sVRks_pjJgzqCVURr1rk5P98xtFIJ_r6ZqGrQUwdRFQYoEGEJTU"
+                >1. View Pubroom Sessions</a
+              >
+              <a
+                class="btn btn-outline"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSewkOT_M6QkDxN1Zl_kwNnnnydRNl2nKvAGM5Ebq3pkTqO44A/closedform"
+                >2. Apply Now</a
+              ><a
+                class="btn btn-outline"
+                onclick=""
+                href="https://drive.google.com/file/d/1xz_sIu5eSwBZKrrx-D0BPsbQ_xvEmcK5/view"
+                >3. Application Requirements</a
+              >
+            </div>
+            <div class="label">Other Organizational cluster staffs</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/SocialMedia.jpg', '50% 40%')"
+                data-staff-id="social-media"
+                style="color: #11294d;"
+                href="#social-media"
+                >Social Media</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/HumanResources.jpg', '50% 10%')"
+                data-staff-id="human-resources"
+                style="color: #006944;"
+                href="#human-resources"
+                >Human Resources</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Research.jpeg', '50% 10%')"
+                data-staff-id="research"
+                style="color: #5c0f11;"
+                href="#research"
+                >Research</a
+              >
+            </div>
+            <div class="label">Writing Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader ('img/update-photos/W7/News.jpg', '50% 40%')"
+                data-staff-id="news"
+                style="color: #1C4480;"
+                href="#news"
+                >News</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Sports.jpg')"
+                data-staff-id="sports"
+                style="color: #1C4481;"
+                href="#sports"
+                >Sports</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Inquiry.jpeg')"
+                data-staff-id="inquiry"
+                style="color: #8f181b;"
+                href="#inquiry"
+                >Inquiry</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BL.jpg')"
+                data-staff-id="beyond-loyola"
+                style="color: #d4b835;"
+                href="#beyond-loyola"
+                >Beyond Loyola</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Feature2.jpeg', '50% 10%')"
+                data-staff-id="features"
+                style="color: #009c65;"
+                href="#features"
+                >Features</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Vant.jpg')"
+                data-staff-id="vantage"
+                style="color: #5E61BA;"
+                href="#vantage"
+                >Vantage Magazine</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BN.png', '50% 15%')"
+                data-staff-id="broadcast-news"
+                style="color: #f09724;"
+                href="#broadcast-news"
+                >Broadcast News</a
+              >
+            </div>
+            <div class="label">Design Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/GD.png')"
+                data-staff-id="graphic-design"
+                style="color: #6a91cd;"
+                href="#graphic-design"
+                >Graphic Design</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/PhotosStaff/photos1.jpeg', '50% 20%', true)"
+                data-staff-id="photos"
+                style="color: #e4bb4e;"
+                href="#photos"
+                >Photos</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/VP.png')"
+                data-staff-id="video-production"
+                style="color: #dc676a;"
+                href="#video-production"
+                >Video Production</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/DD.png', '50% 99%')"
+                data-staff-id="digital-development"
+                style="color: #5ebc91;"
+                href="#digital-development"
+                >Digital Development
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="staff-wrapper staff-research hidden"
+          data-staff-id="research"
+          data-staff-color="#5c0f11"
+        >
+          <div class="staff-center">
+            <div class="staff-name" style="color: #5c0f11;">Research</div>
+            <div class="staff-cluster" style="color: #5c0f11;">
+              Organizational Cluster
+            </div>
+            <div class="label">About the staff</div>
+            <div class="text">
+              As the analytical arm of The GUIDON, Research staffers conduct data-driven studies to craft strategies that address the publication’s challenges during press and non-press cycles.
+              <br> <br />
+              There are two divisions under the Research Staff: Analysts and writers. Analysts develop strategies for the publication, examine readership behavior, and collaborate with other staffs to improve their respective internal processes. On the other hand, writers compose research-heavy reports that add depth and credibility to stories.
+              <br> <br />
+              Researchers must not only be well-versed in quantitative and qualitative analyses, but also in telling stories through numbers through the strategic usage of data to produce plausible solutions and content that will boost the publication’s efforts to delve Deeper into the Truth.
+              
+            </div>
+            <div class="label">Application</div>
+
+            <div class="btn-group">
+                <a class="btn btn-outline" href="https://docs.google.com/forms/d/e/1FAIpQLScC87JqqhPFBlAv9B94nP12X1qCEoTACTnwVI2G2LzlizLjVA/viewform?fbclid=IwAR2Tjul1sVRks_pjJgzqCVURr1rk5P98xtFIJ_r6ZqGrQUwdRFQYoEGEJTU"
+                >1. View Pubroom Sessions</a
+              >
+              <a
+                class="btn btn-outline"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSewkOT_M6QkDxN1Zl_kwNnnnydRNl2nKvAGM5Ebq3pkTqO44A/closedform"
+                >2. Apply Now</a>
+                <!-- onclick="waitTilRecweek()" Davin took this out -->
+              <a
+                class="btn btn-outline"
+                onclick=""
+                href="https://drive.google.com/file/d/1KChuO_bQ_Bxv4rTdRHb13v5LiIiblqXa/view"
+                >3. Application Requirements</a
+              >
+            </div>
+            <div class="label">Other Organizational cluster staffs</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/SocialMedia.jpg', '50% 40%')"
+                data-staff-id="social-media"
+                style="color: #11294d;"
+                href="#social-media"
+                >Social Media</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/HumanResources.jpg', '50% 10%')"
+                data-staff-id="human-resources"
+                style="color: #006944;"
+                href="#human-resources"
+                >Human Resources</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Externals.jpg')"
+                data-staff-id="externals"
+                style="color: #a18c28;"
+                href="#externals"
+                >Externals</a
+              >
+            </div>
+            <div class="label">Writing Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader ('img/update-photos/W7/News.jpg', '50% 40%')"
+                data-staff-id="news"
+                style="color: #1C4480;"
+                href="#news"
+                >News</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Sports.jpg')"
+                data-staff-id="sports"
+                style="color: #1C4481;"
+                href="#sports"
+                >Sports</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Inquiry.jpeg')"
+                data-staff-id="inquiry"
+                style="color: #8f181b;"
+                href="#inquiry"
+                >Inquiry</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BL.jpg')"
+                data-staff-id="beyond-loyola"
+                style="color: #d4b835;"
+                href="#beyond-loyola"
+                >Beyond Loyola</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Feature2.jpeg', '50% 10%')"
+                data-staff-id="features"
+                style="color: #009c65;"
+                href="#features"
+                >Features</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Vant.jpg')"
+                data-staff-id="vantage"
+                style="color: #5E61BA;"
+                href="#vantage"
+                >Vantage Magazine</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BN.png', '50% 15%')"
+                data-staff-id="broadcast-news"
+                style="color: #f09724;"
+                href="#broadcast-news"
+                >Broadcast News</a
+              >
+            </div>
+            <div class="label">Design Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/GD.png')"
+                data-staff-id="graphic-design"
+                style="color: #6a91cd;"
+                href="#graphic-design"
+                >Graphic Design</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/PhotosStaff/photos1.jpeg', '50% 20%', true)"
+                data-staff-id="photos"
+                style="color: #e4bb4e;"
+                href="#photos"
+                >Photos</a
+              >
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/VP.png')"
+                data-staff-id="video-production"
+                style="color: #dc676a;"
+                href="#video-production"
+                >Video Production</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/DD.png', '50% 99%')"
+                data-staff-id="digital-development"
+                style="color: #5ebc91;"
+                href="#digital-development"
+                >Digital Development
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="staff-wrapper staff-graphic-design hidden"
+          data-staff-id="graphic-design"
+          data-staff-color="#6a91cd"
+        >
+          <div class="staff-center">
+            <div class="staff-name" style="color: #6a91cd;">Graphic Design</div>
+            <div class="staff-cluster" style="color: #6a91cd;">
+              Design Cluster
+            </div>
+            <div class="label">About the staff</div>
+            <div class="text">
+              Graphic Design maintains, improves, and innovates The GUIDON’s visual design and creative direction. Constantly collaborating with writers, managers, and other artists, staffers are tasked to design, shape, and complement the publication’s content into compelling pieces both print and online. Beyond their role as the publication’s designers, the staffers serve as visual storytellers of the Atenean narrative.
+              <br> <br />
+              With every work released, Graphic Design commits to excel in communicating information in order to tell stories beyond words through layouts, page designs, and illustrations.
+              
+            </div>
+            <div class="label">Application</div>
+
+            <div class="btn-group">
+                <a class="btn btn-outline" href="https://docs.google.com/forms/d/e/1FAIpQLScC87JqqhPFBlAv9B94nP12X1qCEoTACTnwVI2G2LzlizLjVA/viewform?fbclid=IwAR2Tjul1sVRks_pjJgzqCVURr1rk5P98xtFIJ_r6ZqGrQUwdRFQYoEGEJTU"
+                >1. View Pubroom Sessions</a
+              >
+              <a
+                class="btn btn-outline"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSewkOT_M6QkDxN1Zl_kwNnnnydRNl2nKvAGM5Ebq3pkTqO44A/closedform"
+                >2. Apply Now</a
+              ><a
+                class="btn btn-outline"
+                onclick=""
+                href="https://drive.google.com/file/d/1-8L2B8b6Ine7mh6YZbdK2MHqSKlTqCT6/view"
+                >3. Application Requirements</a
+              >
+            </div>
+            <div class="label">Other Design Cluster staffs</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/PhotosStaff/photos1.jpeg', '50% 20%', true)"
+                data-staff-id="photos"
+                style="color: #e4bb4e;"
+                href="#photos"
+                >Photos</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/VP.png')"
+                data-staff-id="video-production"
+                style="color: #dc676a;"
+                href="#video-production"
+                >Video Production</a
+              >
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/DD.png', '50% 99%')"
+                data-staff-id="digital-development"
+                style="color: #5ebc91;"
+                href="#digital-development"
+                >Digital Development
+              </a>
+            </div>
+            <div class="label">Writing Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader ('img/update-photos/W7/News.jpg', '50% 40%')"
+                data-staff-id="news"
+                style="color: #1C4480;"
+                href="#news"
+                >News</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Sports.jpg')"
+                data-staff-id="sports"
+                style="color: #1C4481;"
+                href="#sports"
+                >Sports</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Inquiry.jpeg')"
+                data-staff-id="inquiry"
+                style="color: #8f181b;"
+                href="#inquiry"
+                >Inquiry</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BL.jpg')"
+                data-staff-id="beyond-loyola"
+                style="color: #d4b835;"
+                href="#beyond-loyola"
+                >Beyond Loyola</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Feature2.jpeg', '50% 10%')"
+                data-staff-id="features"
+                style="color: #009c65;"
+                href="#features"
+                >Features</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Vant.jpg')"
+                data-staff-id="vantage"
+                style="color: #5E61BA;"
+                href="#vantage"
+                >Vantage Magazine</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BN.png', '50% 15%')"
+                data-staff-id="broadcast-news"
+                style="color: #f09724;"
+                href="#broadcast-news"
+                >Broadcast News</a
+              >
+            </div>
+            <div class="label">Organizational Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/SocialMedia.jpg', '50% 40%')"
+                data-staff-id="social-media"
+                style="color: #11294d;"
+                href="#social-media"
+                >Social Media</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/HumanResources.jpg', '50% 10%')"
+                data-staff-id="human-resources"
+                style="color: #006944;"
+                href="#human-resources"
+                >Human Resources</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Externals.jpg')"
+                data-staff-id="externals"
+                style="color: #a18c28;"
+                href="#externals"
+                >Externals</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Research.jpeg', '50% 10%')"
+                data-staff-id="research"
+                style="color: #5c0f11;"
+                href="#research"
+                >Research</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="staff-wrapper staff-photos hidden"
+          data-staff-id="photos"
+          data-staff-color="#e4bb4e"
+        >
+          <div class="staff-center">
+            <div class="staff-name" style="color: #e4bb4e;">Photos</div>
+            <div class="staff-cluster" style="color: #e4bb4e;">
+              Design Cluster
+            </div>
+            <div class="label">About the staff</div>
+            <div class="text">
+              Through capturing history and creating visual content for The GUIDON, the Photos staff is a group of visual storytellers who unveil realities and spark discourse through photojournalism. The staff’s photojournalists take photos that uniquely complement the publication’s works and document events within and outside campus confines. They are also trained to seek stories themselves and find a voice through their photos. 
+              <br> <br />
+              At the heart of the Photos staffers’ work is allowing lenses to communicate and immortalize events as they unfold. As The GUIDON strives to move Deeper into the Truth, the Photos Staff stands at the forefront of bridging communities to important stories.
+              
+            </div>
+            <div class="label">Application</div>
+
+            <div class="btn-group">
+                <a class="btn btn-outline" href="https://docs.google.com/forms/d/e/1FAIpQLScC87JqqhPFBlAv9B94nP12X1qCEoTACTnwVI2G2LzlizLjVA/viewform?fbclid=IwAR2Tjul1sVRks_pjJgzqCVURr1rk5P98xtFIJ_r6ZqGrQUwdRFQYoEGEJTU"
+                >1. View Pubroom Sessions</a
+              >
+              <a
+                class="btn btn-outline"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSewkOT_M6QkDxN1Zl_kwNnnnydRNl2nKvAGM5Ebq3pkTqO44A/closedform"
+                >2. Apply Now</a
+              ><a
+                class="btn btn-outline"
+                onclick=""
+                href="https://drive.google.com/file/d/1Og3XAf4UIrhkJ8aCeYGYfRFnDgcgllum/view"
+                >3. Application Requirements</a
+              >
+            </div>
+            <div class="label">Other Design Cluster staffs</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/GD.png')"
+                data-staff-id="graphic-design"
+                style="color: #6a91cd;"
+                href="#graphic-design"
+                >Graphic Design</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/VP.png')"
+                data-staff-id="video-production"
+                style="color: #dc676a;"
+                href="#video-production"
+                >Video Production</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/DD.png', '50% 99%')"
+                data-staff-id="digital-development"
+                style="color: #5ebc91;"
+                href="#digital-development"
+                >Digital Development
+              </a>
+            </div>
+            <div class="label">Writing Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader ('img/update-photos/W7/News.jpg', '50% 40%')"
+                data-staff-id="news"
+                style="color: #1C4480;"
+                href="#news"
+                >News</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Sports.jpg')"
+                data-staff-id="sports"
+                style="color: #1C4481;"
+                href="#sports"
+                >Sports</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Inquiry.jpeg')"
+                data-staff-id="inquiry"
+                style="color: #8f181b;"
+                href="#inquiry"
+                >Inquiry</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BL.jpg')"
+                data-staff-id="beyond-loyola"
+                style="color: #d4b835;"
+                href="#beyond-loyola"
+                >Beyond Loyola</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Feature2.jpeg', '50% 10%')"
+                data-staff-id="features"
+                style="color: #009c65;"
+                href="#features"
+                >Features</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Vant.jpg')"
+                data-staff-id="vantage"
+                style="color: #5E61BA;"
+                href="#vantage"
+                >Vantage Magazine</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BN.png', '50% 15%')"
+                data-staff-id="broadcast-news"
+                style="color: #f09724;"
+                href="#broadcast-news"
+                >Broadcast News</a
+              >
+            </div>
+            <div class="label">Organizational Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/SocialMedia.jpg', '50% 40%')"
+                data-staff-id="social-media"
+                style="color: #11294d;"
+                href="#social-media"
+                >Social Media</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/HumanResources.jpg', '50% 10%')"
+                data-staff-id="human-resources"
+                style="color: #006944;"
+                href="#human-resources"
+                >Human Resources</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Externals.jpg')"
+                data-staff-id="externals"
+                style="color: #a18c28;"
+                href="#externals"
+                >Externals</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Research.jpeg', '50% 10%')"
+                data-staff-id="research"
+                style="color: #5c0f11;"
+                href="#research"
+                >Research</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="staff-wrapper staff-video-production hidden"
+          data-staff-id="video-production"
+          data-staff-color="#dc676a"
+        >
+          <div class="staff-center">
+            <div class="staff-name" style="color: #dc676a;">
+              Video Production
+            </div>
+            <div class="staff-cluster" style="color: #dc676a;">
+              Design Cluster
+            </div>
+            <div class="label">About the staff</div>
+            <div class="text">
+              The GUIDON’s Video Production staff spearheads the publication’s shift to multimedia journalism. Through dynamic visual storytelling methods, the staff explores a variety of interests that range from hard news to soft news and everything in between. Composed of Content Strategists and Technical Producers, teams within the staff work hand-in-hand to produce documentaries, video articles, and event highlights to pave the way for engaging with audiences within and beyond the Ateneo.
+              <br> <br />
+              The staff prides itself as storytellers that champion the distinct harmony between journalistic competence, technical artistry, and most importantly, a heart for stories.
+              
+            </div>
+            <div class="label">Application</div>
+
+            <div class="btn-group">
+                <a class="btn btn-outline" href="https://docs.google.com/forms/d/e/1FAIpQLScC87JqqhPFBlAv9B94nP12X1qCEoTACTnwVI2G2LzlizLjVA/viewform?fbclid=IwAR2Tjul1sVRks_pjJgzqCVURr1rk5P98xtFIJ_r6ZqGrQUwdRFQYoEGEJTU"
+                >1. View Pubroom Sessions</a
+              >
+              <a
+                class="btn btn-outline"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSewkOT_M6QkDxN1Zl_kwNnnnydRNl2nKvAGM5Ebq3pkTqO44A/closedform"
+                >2. Apply Now</a
+              ><a
+                class="btn btn-outline"
+                onclick=""
+                href="https://drive.google.com/file/d/1lSffG5Qa68aVGMtZWQRp_Z1KZ58rpzy-/view"
+                >3. Application Requirements</a
+              >
+            </div>
+            <div class="label">Other Design Cluster staffs</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/GD.png')"
+                data-staff-id="graphic-design"
+                style="color: #6a91cd;"
+                href="#graphic-design"
+                >Graphic Design</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/PhotosStaff/photos1.jpeg', '50% 20%', true)"
+                data-staff-id="photos"
+                style="color: #e4bb4e;"
+                href="#photos"
+                >Photos</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/DD.png', '50% 99%')"
+                data-staff-id="digital-development"
+                style="color: #5ebc91;"
+                href="#digital-development"
+                >Digital Development
+              </a>
+            </div>
+            <div class="label">Writing Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader ('img/update-photos/W7/News.jpg', '50% 40%')"
+                data-staff-id="news"
+                style="color: #1C4480;"
+                href="#news"
+                >News</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Sports.jpg')"
+                data-staff-id="sports"
+                style="color: #1C4481;"
+                href="#sports"
+                >Sports</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Inquiry.jpeg')"
+                data-staff-id="inquiry"
+                style="color: #8f181b;"
+                href="#inquiry"
+                >Inquiry</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BL.jpg')"
+                data-staff-id="beyond-loyola"
+                style="color: #d4b835;"
+                href="#beyond-loyola"
+                >Beyond Loyola</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Feature2.jpeg', '50% 10%')"
+                data-staff-id="features"
+                style="color: #009c65;"
+                href="#features"
+                >Features</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Vant.jpg')"
+                data-staff-id="vantage"
+                style="color: #5E61BA;"
+                href="#vantage"
+                >Vantage Magazine</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BN.png', '50% 15%')"
+                data-staff-id="broadcast-news"
+                style="color: #f09724;"
+                href="#broadcast-news"
+                >Broadcast News</a
+              >
+            </div>
+            <div class="label">Organizational Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/SocialMedia.jpg', '50% 40%')"
+                data-staff-id="social-media"
+                style="color: #11294d;"
+                href="#social-media"
+                >Social Media</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/HumanResources.jpg', '50% 10%')"
+                data-staff-id="human-resources"
+                style="color: #006944;"
+                href="#human-resources"
+                >Human Resources</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Externals.jpg')"
+                data-staff-id="externals"
+                style="color: #a18c28;"
+                href="#externals"
+                >Externals</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Research.jpeg', '50% 10%')"
+                data-staff-id="research"
+                style="color: #5c0f11;"
+                href="#research"
+                >Research</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="staff-wrapper staff-digital-development hidden"
+          data-staff-id="digital-development"
+          data-staff-color="#5ebc91"
+        >
+          <div class="staff-center">
+            <div class="staff-name" style="color: #5ebc91;">
+              Digital Development
+            </div>
+            <div class="staff-cluster" style="color: #5ebc91;">
+              Design Cluster
+            </div>
+            <div class="label">About the staff</div>
+            <div class="text">
+              The Digital Development staff innovates Philippine campus journalism to produce engaging interactive articles that are unique to The GUIDON. In collaboration with the Writing Cluster and the Design Cluster, the staff aims to provide readers with an immersive experience that creatively combines text and multimedia. Aside from creating immersive content, one of the staff’s primary responsibilities is to maintain The GUIDON’s website and to make it a more usable online platform. The staff is also expected to improve The GUIDON’s efficiency by automating tasks that are time-consuming for human resources to handle.
+              <br> <br />
+              Despite being relatively new, the staff paves the way for an efficient and cutting-edge modernization of The GUIDON as the publication swiftly moves towards the technological front of online storytelling.
+              
+            </div>
+            <div class="label">Application</div>
+
+            <div class="btn-group">
+                <a class="btn btn-outline" href="https://docs.google.com/forms/d/e/1FAIpQLScC87JqqhPFBlAv9B94nP12X1qCEoTACTnwVI2G2LzlizLjVA/viewform?fbclid=IwAR2Tjul1sVRks_pjJgzqCVURr1rk5P98xtFIJ_r6ZqGrQUwdRFQYoEGEJTU"
+                >1. View Pubroom Sessions</a
+              >
+              <a
+                class="btn btn-outline"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSewkOT_M6QkDxN1Zl_kwNnnnydRNl2nKvAGM5Ebq3pkTqO44A/closedform"
+                >2. Apply Now</a
+              ><a
+                class="btn btn-outline"
+                onclick=""
+                href="https://drive.google.com/file/d/1OO-uizB8Lg84dUhZx_ZnEhlib8UQRc3X/view"
+
+                >3. Application Requirements</a>
+                <!-- onclick="addAlert()" Davin took this out-->
+            </div>
+            <div class="label">Other Design Cluster staffs</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/GD.png')"
+                data-staff-id="graphic-design"
+                style="color: #6a91cd;"
+                href="#graphic-design"
+                >Graphic Design</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/PhotosStaff/photos1.jpeg', '50% 20%', true)"
+                data-staff-id="photos"
+                style="color: #e4bb4e;"
+                href="#photos"
+                >Photos</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/D4/VP.png')"
+                data-staff-id="video-production"
+                style="color: #dc676a;"
+                href="#video-production"
+                >Video Production</a
+              >
+            </div>
+            <div class="label">Writing Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader ('img/update-photos/W7/News.jpg', '50% 40%')"
+                data-staff-id="news"
+                style="color: #1C4480;"
+                href="#news"
+                >News</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Sports.jpg')"
+                data-staff-id="sports"
+                style="color: #1C4481;"
+                href="#sports"
+                >Sports</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Inquiry.jpeg')"
+                data-staff-id="inquiry"
+                style="color: #8f181b;"
+                href="#inquiry"
+                >Inquiry</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BL.jpg')"
+                data-staff-id="beyond-loyola"
+                style="color: #d4b835;"
+                href="#beyond-loyola"
+                >Beyond Loyola</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Feature2.jpeg', '50% 10%')"
+                data-staff-id="features"
+                style="color: #009c65;"
+                href="#features"
+                >Features</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/Vant.jpg')"
+                data-staff-id="vantage"
+                style="color: #5E61BA;"
+                href="#vantage"
+                >Vantage Magazine</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/W7/BN.png', '50% 15%')"
+                data-staff-id="broadcast-news"
+                style="color: #f09724;"
+                href="#broadcast-news"
+                >Broadcast News</a
+              >
+            </div>
+            <div class="label">Organizational Cluster</div>
+            <div class="btn-group">
+              <a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/SocialMedia.jpg', '50% 40%')"
+                data-staff-id="social-media"
+                style="color: #11294d;"
+                href="#social-media"
+                >Social Media</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/HumanResources.jpg', '50% 10%')"
+                data-staff-id="human-resources"
+                style="color: #006944;"
+                href="#human-resources"
+                >Human Resources</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Externals.jpg')"
+                data-staff-id="externals"
+                style="color: #a18c28;"
+                href="#externals"
+                >Externals</a
+              ><a
+                class="btn btn-staff"
+                onclick="setStaffHeader('img/update-photos/O4/Research.jpeg', '50% 10%')"
+                data-staff-id="research"
+                style="color: #5c0f11;"
+                href="#research"
+                >Research</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer-wrapper">
+      <div id="footer-center">
+        <div>&copy; The GUIDON 2020.</div>
+        <div>
+          Designed and developed by The GUIDON Graphic Design and Digital
+          Development 2017 & 2019.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
